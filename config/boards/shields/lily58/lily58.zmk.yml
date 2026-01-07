@@ -12,3 +12,10 @@ features:
 siblings:
   - lily58_left
   - lily58_right
+include:
+  - board: nice_nano
+    shield: lily58_left
+  - board: nice_nano
+    shield: lily58_right
+  - board: nice_nano
+    shield: settings_reset
