@@ -7,7 +7,7 @@
 #include <dt-bindings/zmk/matrix_transform.h>
 
 
-#include <layouts/dactyl.dtsi>
+#include "layouts/dactyl.dtsi"
 
 / {
     chosen {

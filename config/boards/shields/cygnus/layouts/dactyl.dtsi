@@ -1,0 +1,11 @@
+/* Minimal physical layout placeholder for Dactyl/Cygnus
+ * Provides a `&dactyl_layout` label so overlays can augment it.
+ * This file is intentionally minimal — it only declares the phandle
+ * expected by `cygnus.dtsi` and attaches a compatible string.
+ */
+
+/ {
+    dactyl_layout: dactyl-layout {
+        compatible = "zmk,physical-layout";
+    };
+};
