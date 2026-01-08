@@ -7,8 +7,6 @@
 #include <dt-bindings/zmk/matrix_transform.h>
 
 
-#include <layouts/kata0510/lily58.dtsi>
-
 / {
     chosen {
         zephyr,display = &oled;
@@ -79,10 +77,6 @@
         sensors = <&left_encoder>;
         triggers-per-rotation = <20>;
     };
-};
-
-&kata0510_lily58_layout {
-    transform = <&default_transform>;
 };
 
 &pro_micro_i2c {
