@@ -7,5 +7,6 @@
 / {
     dactyl_layout: dactyl-layout {
         compatible = "zmk,physical-layout";
+        display-name = "Dactyl Cygnus";
     };
 };
