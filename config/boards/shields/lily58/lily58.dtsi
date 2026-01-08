@@ -81,7 +81,7 @@
     };
 };
 
-&my_custom_layout {
+&kata0510_lily58_layout {
     transform = <&default_transform>;
 };
 
