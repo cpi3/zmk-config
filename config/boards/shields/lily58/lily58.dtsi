@@ -36,7 +36,7 @@
 
     my_custom_layout: my_custom_layout {
         compatible = "zmk,physical-layout";
-        display-name = "Custom Layout";
+        display-name = "Cygnus 4x6";
         transform = <&default_transform>;
         keys
             = <&key_physical_attrs 100 100    0   50       0     0     0>, <&key_physical_attrs 100 100  100   37       0     0     0>, <&key_physical_attrs 100 100  200   12       0     0     0>, <&key_physical_attrs 100 100  300    0       0     0     0>, <&key_physical_attrs 100 100  400   12       0     0     0>, <&key_physical_attrs 100 100  500   25       0     0     0>, 
